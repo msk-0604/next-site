@@ -6,6 +6,8 @@ import ButtonLink from "./components/ButtonLink";
 import NewsList from "@/app/components/NewsList";
 
 
+export const revalidate = 60;
+
 
 export default async function Home() {
   
